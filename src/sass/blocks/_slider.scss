@@ -1,0 +1,101 @@
+/* Слайдер */
+.slick-slider{
+    padding: 0 15px;
+}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{}
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+    display: flex;
+}
+
+/* Слайд */
+.slick-slide{
+    
+}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+/* Стрелка */
+.slick-arrow{}
+/* Стрелка влево */
+.slick-arrow.slick-prev{}
+/* Стрелка вправо */
+.slick-arrow.slick-next{}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+/* Точки (булиты) */
+.slick-dots{}
+.slick-dots li{}
+/* Активная точка */
+.slick-dots li.slick-active{}
+/* Элемент точки */
+.slick-dots li button{}
+
+.casting__items {
+    position: relative;
+    margin: 0 -15px;
+    .slick-arrow{
+        position: absolute;
+        top: 50%;
+        z-index: 100;
+        font-size: 0;
+        width: 10px;
+        height: 20px;
+    }
+}
+.casting__items{
+    .slick-arrow.slick-prev{
+        position: relative;
+        left: 0;
+        background: url('/src/img/VectorleftArrow.svg') 0 0 / 100% no-repeat;
+        outline: none;
+        border: hidden;
+        &::before{
+            content: '';
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            border-radius:100% ;
+            background: #FFFFFF;
+            box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.16);
+        }
+    }
+
+}
+.casting__items{
+    .slick-arrow.slick-next{
+        right: 0;
+        background: url('/src/img/VectorrightArrow.svg') 0 0 / 100% no-repeat;
+        color: black;
+        outline: none;
+        border: hidden;
+        &::before{
+            content: '';
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            border-radius:100% ;
+            background: #FFFFFF;
+            box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.16);
+        }
+    }
+
+}

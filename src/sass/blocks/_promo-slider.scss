@@ -1,0 +1,88 @@
+.promo-slider{
+    position: relative;
+    height: 400px;
+    background-color: #95D1C5;
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &__image {
+        margin-top: 14px;
+        margin-bottom: -4px;
+        img{
+            width: 489px;
+            height: 386px;
+        }
+    }
+    &__content {
+        width: 520px;
+        &-title {
+            font-weight: 700;
+            color: white;
+            letter-spacing: 5px;
+            font-size: 48px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+        &-descr{
+            color: white;
+            font-size: 20px;
+            font-weight: 400;
+            padding: 15px 0 19px 0;
+        }
+        &-btn{
+            border-radius: 5px;
+            padding: 13px 28px 13px 28px;
+            color: $main-color;
+            background-color: white;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border: none;
+            cursor: pointer;
+        }
+    }
+    .dots_wrapper {
+        position: absolute;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 120px;
+        bottom: 10px;
+        left: 50%;
+        transform: translate(-50%, -25%); 
+        span.dot{
+            margin: 0 3px;
+            width: 5px;
+            height: 5px;
+            border-radius: 100%;
+            background-color: rgba(255, 255, 255, 0.384);
+            &.active-dot {
+                background-color: #fff;
+            }
+        }
+        span.left-arr, span.right-arr{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 30px;
+            height: 30px;
+            border-radius: 100%;
+            border: 1px solid rgba(255, 255, 255, 0.315);
+            cursor:pointer;
+            transition: 1s all;
+        }
+        span.left-arr{
+            &:hover{
+                transition: .3s all;
+                border: 1px solid #fff;
+            }
+        }
+        span.right-arr{
+            &:hover{
+                transition: .3s all;
+                border: 1px solid #fff;
+            }
+        }
+    }
+}

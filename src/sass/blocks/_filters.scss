@@ -1,0 +1,92 @@
+.filters {
+    // padding: 20px 0;
+    max-height: 140px;
+    padding-top: 20px ;
+    &__wrapper{
+        display: flex;       
+    }
+    &__casting{
+        width: 182px;  
+        height: 40px; 
+        padding-left: 10px;
+        margin-right: 10px;
+        border-radius: 5px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    &__sex{
+        width: 182px; 
+        height: 40px;  
+        padding-left: 10px;
+        margin-right: 10px;
+        border-radius: 5px;
+
+    }
+    &__age{
+        width: 182px;
+        height: 40px;       
+        padding-left: 10px;
+        margin-right: 10px;
+        border-radius: 5px;
+        
+    }
+    &__search-box {
+        position: relative;
+        i{
+            padding: 12px 0 11px 7px;
+            position: absolute;
+            left: 0;
+            color: gray;
+        }
+        input{
+            padding: 11px 108px 10px 28px;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+    }
+    &__filter{
+        width: 172px;
+        height: 40px;
+        border: 2px solid $main-color;
+        border-radius: 5px;
+        background-color: #fff;
+        padding: 13px 33px;
+        display: flex;
+        align-items: center;
+        outline: none;
+        cursor: pointer;
+        margin-right: 10px;
+        &::before{
+            content: url('../icons/filter.svg');
+            padding-right: 7px;
+            margin-top: 4px;
+        }
+    }
+    &__search{
+        width: 96px;
+        height: 40px;
+        background-color: $main-color;
+        outline: none;
+        font-size: 12px;
+        border: none;
+        line-height: 14px;
+        border-radius: 5px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    select:hover{
+        background-color: none;
+    }
+    option{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;      
+        color: #383838;
+    }
+    
+}

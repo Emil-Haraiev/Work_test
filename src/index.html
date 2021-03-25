@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            
+            <div class="header__wrapper">
+                <div class="header__hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+      
+                </div>
+                <a href="#">
+                    <img src="icons/logo.jpg" alt="logo" class="header__logo">
+                </a>
+                <button class="header__buy">
+                    купить gold аккаунт
+                </button>
+                <button class="header__create">
+                    создать кастинг/объявление
+                </button>
+                <div class="header__login">
+                    <a href="#">вход</a>
+                    /
+                    <a href="#">регистрация </a>
+                </div>
+            </div>
+            <div class="header__menu">
+                <ul>
+                    <li class="header__menu-item">
+                        <a href="#" class="header__menu-link">о нас</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#" class="header__menu-link">соискатели</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#" class="header__menu-link">наниматели</a>
+                    </li>
+                    <li class="header__menu-item ">
+                        <a href="#" class="header__menu-link active" >кастинги </a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#" class="header__menu-link">календарь кастингов</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="filters">
+        <div class="container">
+            <div class="filters__wrapper">
+                <select class="filters__casting" name="casting" id="casting">
+                    <option selected hidden value="Кастинг">Кастинг</option>
+                    <option value="Вариант 1">Вариант 1</option>
+                    <option value="Вариант 2">Вариант 2</option>
+                </select>
+                <select class="filters__sex name="sex" id="sex">
+                    <option selected  hidden value="Пол">Пол</option>
+                    <option value="Мужчина">Мужчина</option>
+                    <option value="Женщина">Женщина</option>
+                </select>
+                <div class="filters__search-box">
+                    <input type="text" placeholder="Ключевая фраза" >
+                    <i class="fas fa-search "></i>
+                </div>
+                <select class="filters__age" name="age" id="age">
+                    <option value="Возраст">Возраст</option>
+                </select>
+                <button class="filters__filter"> Еще фильтры</button>
+                <button class="filters__search" > Найти </button>
+            </div>
+        </div>
+    </section>
+    <section class="promo-slider">
+        <div class="promo-slider__wrapper">
+            <div class="promo-slider__image">
+                <img src="/src/img/promo-slider.png" class="promo-slider__img" alt="slide">
+            </div>
+            <div class="promo-slider__content">
+                <h2 class="promo-slider__content-title">
+                    ARTCASTING
+                </h2>
+                <div class="promo-slider__content-descr">
+                    Это самый удобный, интуитивный сервис кастингов в рунете
+                </div>
+                <button class="promo-slider__content-btn">
+                    найти кастинг
+                </button>
+            </div>
+        </div>
+        <div class="dots_wrapper">
+            <span class="left-arr"><img src="/src/icons/leftarrow.svg" alt="left"></span>
+            <span class="dot active-dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="right-arr"><img src="/src/icons/rightarrow.svg" alt="right"></span>
+        </div>
+</section>
+<section class="casting">
+    <div class="container">
+        
+        <div class="casting__wrapper">
+            
+            <div class="casting__title">Кастинги и массовки в Москве</div>
+            <div class="casting__items">
+            <div class="casting__item">
+                <img src="../src/icons/casting/irina.png" alt="" class="casting__photo">
+                <div class="casting__descr">
+                    <div class="casting__name">Холмогорова Ирина  Валентиновна</div>
+                    <div class="casting__prof">Актер, Вокалист, Ведущий</div>
+                    <div class="casting__age">26 лет</div>
+                </div>
+            </div>
+            <div class="casting__item">
+                <img src="../src/icons/casting/roman.png" alt="" class="casting__photo">
+                <div class="casting__descr">
+                    <div class="casting__name">Смирнов Роман</div>
+                    <div class="casting__prof">Актер, Вокалист, Ведущий</div>
+                    <div class="casting__age">19 лет</div>
+                </div>
+            </div>
+            <div class="casting__item casting__item-active">
+                <img src="../src/icons/casting/marina.png" alt="" class="casting__photo">
+                <div class="casting__descr">
+                    <div class="casting__name">Дюмина Марина  Викторовна</div>
+                    <div class="casting__prof">Актер, Вокалист, Ведущий</div>
+                    <div class="casting__age">32 года</div>
+                </div>
+            </div>
+            <div class="casting__item">
+                <img src="../src/icons/casting/irina2.png" alt="" class="casting__photo">
+                <div class="casting__descr">
+                    <div class="casting__name">Холмогорова Ирина Валентиновна</div>
+                    <div class="casting__prof">Актер, Вокалист, Ведущий</div>
+                    <div class="casting__age">29 лет</div>
+                </div>
+            </div>
+            <div class="casting__item">
+                <img src="../src/icons/casting/sergei.png" alt="" class="casting__photo">
+                <div class="casting__descr">
+                    <div class="casting__name">Воронин Сергей </div>
+                    <div class="casting__prof">Актер, Вокалист, Ведущий</div>
+                    <div class="casting__age">28 лет</div>
+                </div>
+            </div>
+            <div class="casting__add">
+                <a href="#">
+                    <i class="fas fa-plus"></i>                    
+                </a>
+                <div class="casting__plus">Добавить анкету</div>
+            </div>
+            <div class="casting__item">
+                <img src="../src/icons/casting/sergei.png" alt="" class="casting__photo">
+                <div class="casting__descr">
+                    <div class="casting__name">Воронин Сергей </div>
+                    <div class="casting__prof">Актер, Вокалист, Ведущий</div>
+                    <div class="casting__age">28 лет</div>
+                </div>
+            </div>
+            <div class="casting__item">
+                <img src="../src/icons/casting/sergei.png" alt="" class="casting__photo">
+                <div class="casting__descr">
+                    <div class="casting__name">Воронин Сергей </div>
+                    <div class="casting__prof">Актер, Вокалист, Ведущий</div>
+                    <div class="casting__age">28 лет</div>
+                </div>
+            </div>
+            <div class="casting__item">
+                <img src="../src/icons/casting/sergei.png" alt="" class="casting__photo">
+                <div class="casting__descr">
+                    <div class="casting__name">Воронин Сергей </div>
+                    <div class="casting__prof">Актер, Вокалист, Ведущий</div>
+                    <div class="casting__age">28 лет</div>
+                </div>
+            </div>
+           </div>
+        </div>
+        
+    </div>
+</section>
+
+</body>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/slick.min.js" ></script>
+<script src="https://kit.fontawesome.com/3326826613.js" crossorigin="anonymous"></script>
+<script src="Js/script.js"></script>
+</html>

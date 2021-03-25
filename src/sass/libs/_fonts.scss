@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'PF Highway Sans Pro';
+    src: url('../fonts/PFHighwaySansPro-Italic.eot');
+    src: local('../fonts/PFHighwaySansPro-Italic'),
+        url('../fonts/PFHighwaySansPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFHighwaySansPro-Italic.woff2') format('woff2'),
+        url('../fonts/PFHighwaySansPro-Italic.woff') format('woff'),
+        url('../fonts/PFHighwaySansPro-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    
+}
+
+@font-face {
+    font-family: 'PF Highway Sans Pro Extra';
+    src: url('../fonts/PFHighwaySansPro-ExtraThin.eot');
+    src: local('../fonts/PFHighwaySansPro-ExtraThin'),
+        url('../fonts/PFHighwaySansPro-ExtraThin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFHighwaySansPro-ExtraThin.woff2') format('woff2'),
+        url('../fonts/PFHighwaySansPro-ExtraThin.woff') format('woff'),
+        url('../fonts/PFHighwaySansPro-ExtraThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Highway Sans Pro';
+    src: url('../fonts/PFHighwaySansPro-Light.eot');
+    src: local('../fonts/PFHighwaySansPro-Light'),
+        url('../fonts/PFHighwaySansPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFHighwaySansPro-Light.woff2') format('woff2'),
+        url('.../fonts/PFHighwaySansPro-Light.woff') format('woff'),
+        url('../fonts/PFHighwaySansPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Highway Sans Pro';
+    src: url('../fonts/PFHighwaySansPro-Medium.eot');
+    src: local('../fonts/PFHighwaySansPro-Medium'),
+        url('../fonts/PFHighwaySansPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFHighwaySansPro-Medium.woff2') format('woff2'),
+        url('../fonts/PFHighwaySansPro-Medium.woff') format('woff'),
+        url('../fonts/PFHighwaySansPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Highway Sans Pro';
+    src: url('../fonts/PFHighwaySansPro-Thin.eot');
+    src: local('../fonts/PFHighwaySansPro-Thin'),
+        url('../fonts/PFHighwaySansPro-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFHighwaySansPro-Thin.woff2') format('woff2'),
+        url('../fonts/PFHighwaySansPro-Thin.woff') format('woff'),
+        url('../fonts/PFHighwaySansPro-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Highway Sans Pro';
+    src: url('../fonts/PFHighwaySansPro-BoldItalic.eot');
+    src: local('../fonts/PFHighwaySansPro-BoldItalic'),
+        url('../fonts/PFHighwaySansPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFHighwaySansPro-BoldItalic.woff2') format('woff2'),
+        url('../fonts/PFHighwaySansPro-BoldItalic.woff') format('woff'),
+        url('../fonts/PFHighwaySansPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PF Highway Sans Pro';
+    src: url('../fonts/PFHighwaySansPro-ThinItalic.eot');
+    src: local('../fonts/PFHighwaySansPro-ThinItalic'),
+        url('../fonts/PFHighwaySansPro-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFHighwaySansPro-ThinItalic.woff2') format('woff2'),
+        url('../fonts/PFHighwaySansPro-ThinItalic.woff') format('woff'),
+        url('../fonts/PFHighwaySansPro-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PF Highway Sans Pro Extra';
+    src: url('../fonts/PFHighwaySansPro-ExtraThinItalic.eot');
+    src: local('../fonts/PFHighwaySansPro-ExtraThinItalic'),
+        url('../fonts/PFHighwaySansPro-ExtraThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFHighwaySansPro-ExtraThinItalic.woff2') format('woff2'),
+        url('../fonts/PFHighwaySansPro-ExtraThinItalic.woff') format('woff'),
+        url('../fonts/PFHighwaySansPro-ExtraThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PF Highway Sans Pro';
+    src: url('../fonts/PFHighwaySansPro-MediumItalic.eot');
+    src: local('../fonts/PFHighwaySansPro-MediumItalic'),
+        url('../fonts/PFHighwaySansPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFHighwaySansPro-MediumItalic.woff2') format('woff2'),
+        url('../fonts/PFHighwaySansPro-MediumItalic.woff') format('woff'),
+        url('../fonts/PFHighwaySansPro-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PF Highway Sans Pro';
+    src: url('../fonts/PFHighwaySansPro-BlackItalic.eot');
+    src: local('../fonts/PFHighwaySansPro-BlackItalic'),
+        url('../fonts/PFHighwaySansPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFHighwaySansPro-BlackItalic.woff2') format('woff2'),
+        url('../fonts/PFHighwaySansPro-BlackItalic.woff') format('woff'),
+        url('../fonts/PFHighwaySansPro-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PF Highway Sans Pro';
+    src: url('../fonts/PFHighwaySansPro-Black.eot');
+    src: local('../fonts/PFHighwaySansPro-Black'),
+        url('../fonts/PFHighwaySansPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFHighwaySansPro-Black.woff2') format('woff2'),
+        url('../fonts/PFHighwaySansPro-Black.woff') format('woff'),
+        url('../fonts/PFHighwaySansPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Highway Sans Pro';
+    src: url('../fonts/PFHighwaySansPro-LightItalic.eot');
+    src: local('../fonts/PFHighwaySansPro-LightItalic'),
+        url('../fonts/PFHighwaySansPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFHighwaySansPro-LightItalic.woff2') format('woff2'),
+        url('../fonts/PFHighwaySansPro-LightItalic.woff') format('woff'),
+        url('../fonts/PFHighwaySansPro-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PF Highway Sans Pro';
+    src: url('../fonts/PFHighwaySansPro-Bold.eot');
+    src: local('../fonts/PFHighwaySansPro-Bold'),
+        url('../fonts/PFHighwaySansPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFHighwaySansPro-Bold.woff2') format('woff2'),
+        url('../fonts/PFHighwaySansPro-Bold.woff') format('woff'),
+        url('../fonts/PFHighwaySansPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Highway Sans Pro';
+    src: url('../fonts/PFHighwaySansPro-Regular.eot');
+    src: local('../fonts/PFHighwaySansPro-Regular'),
+        url('../fonts/PFHighwaySansPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFHighwaySansPro-Regular.woff2') format('woff2'),
+        url('../fonts/PFHighwaySansPro-Regular.woff') format('woff'),
+        url('../fonts/PFHighwaySansPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

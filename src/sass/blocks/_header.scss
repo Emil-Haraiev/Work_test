@@ -1,0 +1,92 @@
+.header{
+    max-height: 148px;
+    padding: 20px 0;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        // margin-top: 21px;
+    }
+    &__menu{
+        margin-top: 39px;
+        ul{
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            margin-right: 20px;
+            li{
+                margin-right: 20px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 17px;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+
+                a{
+                    text-decoration: none;
+                    color: #2D2F2E;
+                    &.active{
+                        color:red;
+                    } 
+                }
+            }
+        }
+    }
+    &__logo{
+        margin-right: 40px;
+    }
+    &__buy{
+        margin-right: 10px;
+        padding: 13px 28px;
+        width: 192px;
+        height: 40px;
+        background: $main-color;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 11px;
+        line-height: 14px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        &:hover{
+            background: #57B9A1;
+        }
+    }
+    &__create{
+        padding: 13px 28px;
+        margin-right: 329px;
+        width: 251px;
+        height: 40px;
+        background: #FFFFFF;
+        border: 1px solid $main-color;
+        box-sizing: border-box;
+        border-radius: 5px;
+        font-size: 11px;
+        outline: none;
+        cursor: pointer;
+        line-height: 14px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #383838;
+        &:hover{
+            color: $main-color;
+        }
+    }
+    &__login{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        a{
+            text-decoration: none;
+            color: #383838;
+            
+        }
+    }
+}

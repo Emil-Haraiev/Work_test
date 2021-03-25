@@ -1,0 +1,112 @@
+.casting{
+    min-height: 629px;
+    background-color: #F4FAF9;
+    
+    &__title{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 48px;
+        color: #383838;
+    }
+    &__wrapper{
+        padding: 100px 0 85px 0;
+    }
+    &__items{
+        display: flex;
+        min-width: 0;
+        gap: 10px;
+        margin-top: 40px;
+        
+    }
+    &__item{
+        
+        max-width: 182px;
+        background: #FFFFFF;
+        border: 1px solid #E0E0E0;
+        box-sizing: border-box;
+        border-radius: 5px;
+        cursor: pointer;
+        &:hover{
+            border: 1px solid #68CBB3;
+            box-shadow: 0px 0px 16px rgba(104, 203, 179, 0.24);
+        }
+        img{
+            width: 182px;
+           
+        }
+        
+    }
+    &__item:nth-child(2){
+        .casting__prof{
+            margin-top: 25px;
+        }
+    }
+    &__item:nth-child(5){
+        .casting__prof{
+            margin-top: 25px;
+        }
+    }
+    &__descr{
+        padding: 10px 10px;
+        
+    }
+    &__name{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: #383838;
+        margin-bottom: 5px;
+        
+    }
+    
+    
+    &__prof{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        color: #383838;
+    }
+    &__age{
+        margin-top: 5px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        color: #383838;
+    }
+    &__add{
+        position: relative;
+        max-width: 182px;
+        background: #7C4D82;
+        border-radius: 5px;
+        a{  
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            color: white;
+            left: 50%;
+            margin-top: 139px;
+            text-decoration: none;
+            transform: translateX(-50%);
+            width: 40px;
+            height: 40px;
+            background: #7C4D82;
+            border: 1px solid #9C6AA3;
+            border-radius: 100%;
+            box-sizing: border-box;
+        }
+        
+    }
+    &__plus{
+        margin-right: 10px;
+        text-align: center;
+        border: none;
+        outline: none;
+        font-size: 14px;
+        line-height: 130%;
+        margin-top: 189px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+}
